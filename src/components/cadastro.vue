@@ -31,7 +31,7 @@
 <script>
 import { required,email }  from 'vuelidate/lib/validators';
 export default {
-   nome: "required", 
+//    nome: "required", 
     data() {
         return {
             nome:"",
