@@ -1,30 +1,38 @@
 <template>
   <div id="app">
-    <h1>projeto vue xandy</h1>
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <cliente />
+    <img src="./assets/xandy.jpg" alt="xandy.jpg">
+    <mainn />
+    <cadastro/>
   </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import cliente from "./components/cliente.vue";
+import mainn from "./components/mainn.vue";
+import cadastro from "./components/cadastro.vue";
+ 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    cliente,
+    mainn,
+    cadastro,
+    
   }
 }
+
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+    background-color: black;
 }
+img {
+  height: 300px;
+  width: 250px;
+  margin-left: 500px;
+  margin-top: -600px;
+  
+}
+
 </style>
