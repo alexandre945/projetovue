@@ -3,7 +3,7 @@
             <h2>ENTRE EM CONTATO:</h2>
           
             
-        <form action="https://formspree.io/alexandresousaroberto@gmail.com" method="post">
+       <form action="https://formspree.io/alexandresousarberto@gmail.com" method="POST">
                
                 <label for="">Nome</label><br>
                 <input  v-model="nome" @change="$v.nome.$touch()" type="text" ><br>
@@ -13,6 +13,11 @@
                 <input v-model="email" @change="$v.email.$touch()" type="tex" > <br>
                  <p v-if="$v.email.$error">este campo é obrigatorio.</p> 
 
+                  <label for="">EMPPRESA</label><br>
+                <input v-model="empresa" @change="$v.empresa.$touch()" type="tex" > <br>
+                 <p v-if="$v.email.$error">este campo é obrigatorio.</p> 
+
+
                 <label for="">Mensagen</label><br>
                 <textarea v-model="mensagem"  @change="$v.mensagem.$touch()" type="text" ></textarea><br>
                   <p v-if="$v.mensagem.$error">este campo é obrigatorio.</p> 
@@ -21,8 +26,9 @@
                 Nome: {{ nome }}<br>
                 Email:{{ email }}<br>
                 Mensagem:{{ mensagem }}<br>
+                Empresa:{{ empresa }}<br>
             </div>
- <button type="submit" @click.prevent="$v.touch()">ENVIAR</button><br>
+ <button type="submit" @click.prevent="login()">ENVIAR</button><br>
 
         </form>
 
@@ -31,12 +37,13 @@
 <script>
 import { required,email }  from 'vuelidate/lib/validators';
 export default {
-//    nome: "required", 
+    nome: "required", 
     data() {
         return {
             nome:"",
             email:"",
             mensagem:"",
+            empresa:"",
 
          
             }
@@ -45,9 +52,18 @@ export default {
                 nome: { required } ,
                 email: { required,email },
                 mensagem: { required },
+                empresa: { required},
                 
             },
-           
+ methods: {
+    login(){
+        if( !this.$v.invalid ) {
+            alert('mensagem enviada com sucesso!')
+        }else{
+            this.$v.$tuoch();
+        }
+     }
+ },          
 }
 </script>
 <style scoped>
