@@ -1,7 +1,7 @@
 <template>
 
     <div id="stek">
-        <h1>conhecimentos:</h1> 
+        <h1>Skills:</h1> 
         <p>HTML/<br>85%</p><br>
         <p>CSS/<br>68%</p>
         <p>Java Script(JS)/<br>45%</p>

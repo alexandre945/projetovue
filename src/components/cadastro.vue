@@ -25,10 +25,11 @@
             <div id="tex"> 
                 Nome: {{ nome }}<br>
                 Email:{{ email }}<br>
-                Mensagem:{{ mensagem }}<br>
                 Empresa:{{ empresa }}<br>
+                Mensagem:{{ mensagem }}<br>
+               
             </div>
- <button type="submit" @click.prevent="login()">ENVIAR</button><br>
+ <button type="submit" @click="login()">ENVIAR</button><br>
 
         </form>
 
