@@ -8,9 +8,9 @@
         <p>Vue Js/<br>35%</p>
         <p>github/<br>60%</p>
         <p>Git/<br>70%</p>
-        <p>mySQL<br>25%</p>
-        <p>Visual Estudio code<br>68%(VS)</p>
+        <p>mysql<br>25%</p>
         <p>Node JS<br>35%</p>
+        <p>Foco<br>110%</p>
         
     </div>
 </template>

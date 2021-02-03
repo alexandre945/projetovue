@@ -3,7 +3,7 @@
             <h2>ENTRE EM CONTATO:</h2>
           
             
-       <form action="https://formspree.io/alexandresousarberto@gmail.com" method="POST">
+       <form action="https://formspree.io/xandylambamg@hotmail.com" method="POST">
                
                 <label for="">Nome</label><br>
                 <input  v-model="nome" @change="$v.nome.$touch()" type="text" ><br>
@@ -29,7 +29,7 @@
                 Mensagem:{{ mensagem }}<br>
                
             </div>
- <button type="submit" @click="login()">ENVIAR</button><br>
+ <button type="submit" @click.prevent="login()">ENVIAR</button><br>
 
         </form>
 
@@ -57,6 +57,8 @@ export default {
                 
             },
  methods: {
+   
+
     login(){
         if( !this.$v.invalid ) {
             alert('mensagem enviada com sucesso!')
@@ -64,7 +66,8 @@ export default {
             this.$v.$tuoch();
         }
      }
- },          
+ }, 
+
 }
 </script>
 <style scoped>
