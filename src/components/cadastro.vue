@@ -72,39 +72,39 @@ export default {
 </script>
 <style scoped>
 h2 {
-    color:chocolate
+    color:peru;
 }
 input {
     background-color: black;
-    color: chocolate;
+    color:peru;
     height: 40px;
     width: 250px;
-     border: solid 2px chocolate;
+     border: solid 2px peru;
      font-size: 15pt;
 }
 label {
       background-color: black;
-    color: chocolate;
+   color:peru;
 }
 textarea {
     background-color: black;
-    color: chocolate;
-    border: solid 2px chocolate;
+    color:peru;
+    border: solid 2px peru;
     width: 250px;
     font-size: 15pt;
 }
 #tex {
-    color: chocolate; 
+ color:peru;
     font-size: 15pt;
    
 }
 button {
     background-color: black;
-    color: chocolate;
-    border: solid 2px chocolate;  
+     color:peru;
+    border: solid 2px peru;  
 }
 lU {
-      color: chocolate; 
+       color:peru;
 }
 #li {
     background-color: azure;

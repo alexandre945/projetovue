@@ -30,10 +30,14 @@ export default {
     background-color: black;
 }
 img {
-  height: 300px;
-  width: 250px;
+  height: 313px;
+  width: 280px;
   margin-left: 500px;
-  margin-top: -600px;
+  margin-top: -600px; 
+  margin-bottom: 100px;
+ padding-top: 0px;
+ border: solid 2px peru;
+ text-align: center;
   
 }
 
