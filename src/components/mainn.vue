@@ -8,9 +8,9 @@
         <p>Vue Js/<br>35%</p>
         <p>github/<br>60%</p>
         <p>Git/<br>70%</p>
-        <p>mysql<br>25%</p>
-        <p>Node JS<br>35%</p>
-        <p>Foco<br>110%</p>
+        <p>mysql/<br>25%</p>
+        <p>Node JS/<br>35%</p>
+        <p>Foco/<br>110%</p>
         
     </div>
 </template>
@@ -22,18 +22,21 @@ export default {
 <style scoped>
 h1 {
     color: peru;
+    padding-left: 20px; 
+    
     
 }
 p {
  color: peru;
  font-size: 20pt;
- padding-left: 25px;   
+ padding-left: 25px;
+  
 }
 #stek {
    display: flex;
    text-align: center;
     margin-left: 0px;
-    border: solid 2px chocolate;
-   
+    border: solid 2px peru;
+      
 }
 </style>

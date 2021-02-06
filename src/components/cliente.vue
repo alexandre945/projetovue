@@ -26,13 +26,14 @@ export default {
  #menu {
    background-color: rgba(0, 0, 0, 0.788);
    color:peru;
-   
+  
  }
  p {
    margin-top: 3px;
    font-size: 20pt;
    padding-top: 30px;
-   padding-left: 20px;
+    padding-left: 20px; 
+   margin-bottom: -5px;
  }
 
 

@@ -2,7 +2,7 @@
   <div id="app">
     <cliente />
      <contato />
-    <img src="./assets/xandy.jpg" alt="xandy.jpg">
+    <img src="./assets/alex.jpg" alt="xandy.jpg">
     <mainn />
     <cadastro/>
    
@@ -28,6 +28,8 @@ export default {
 <style>
 #app {
     background-color: black;
+    border: solid 5px peru;
+    
 }
 img {
   height: 313px;
