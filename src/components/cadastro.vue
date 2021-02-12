@@ -10,7 +10,7 @@
                     <input type="text" name="honeypot" style="display:none">
                     <input type="hidden" name="accessKey" value="2811af00-0456-4c02-a5fb-adb2057f2630">
                     <input type="hidden" name="replyTo" value="xandylamabamg@hotmail.com">
-                    <input type="hidden" name="redirectTo" value="http://localhost:8080">
+                    <input type="hidden" name="redirectTo" value="https://projetovue.vercel.app">
                     <input type="submit" value.prevente="Submit" />
             </form>
     </div>
