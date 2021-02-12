@@ -3,32 +3,20 @@
           
     <div id="forme"> 
              <h2>ENTRE EM CONTATO:</h2>
-        <form action="https://formspree.io/xandylambamg@hotmail.com" method="POST">
-               
-                <label for="">Nome</label><br>
-                <input  v-model="nome" @change="$v.nome.$touch()" type="text" ><br>
-                 <p v-if="$v.nome.$error">este campo é obrigatorio.</p> 
-            
-                <label for="">Email</label><br>
-                <input v-model="email" @change="$v.email.$touch()" type="tex" > <br>
-                 <p v-if="$v.email.$error">este campo é obrigatorio.</p> 
-
-                  <label for="">EMPPRESA</label><br>
-                <input v-model="empresa" @change="$v.empresa.$touch()" type="tex" > <br>
-                 <p v-if="$v.email.$error">este campo é obrigatorio.</p> 
-
-
-                <label for="">Mensagen</label><br>
-                <textarea v-model="mensagem"  @change="$v.mensagem.$touch()" type="text" ></textarea><br>
-                  <p v-if="$v.mensagem.$error">este campo é obrigatorio.</p> 
-                    <button type="submit" @click.prevent="login()">ENVIAR</button><br>
-
-        </form>
+              <form action="https://api.staticforms.xyz/submit" method="post">
+                    <input v-model="nome" type="text" name="name" placeholder="seu nome"><br>
+                    <input v-model="email" type="text" name="email" placeholder="seu Email" /><br>
+                    <textarea v-model="mensagem" name="message" placeholder="deixe sua mensagem"></textarea><br>
+                    <input type="text" name="honeypot" style="display:none">
+                    <input type="hidden" name="accessKey" value="2811af00-0456-4c02-a5fb-adb2057f2630">
+                    <input type="hidden" name="replyTo" value="xandylamabamg@hotmail.com">
+                    <input type="hidden" name="redirectTo" value="http://localhost:8080">
+                    <input type="submit" value.prevente="Submit" />
+            </form>
     </div>
             <div id="tex"> 
                  Nome: {{ nome }}<br><br><br>
                 Email: {{ email }}<br><br><br>
-                Empresa: {{ empresa }}<br><br><br>
                 Mensagem: {{ mensagem }}<br><br><br>
                
             </div>
@@ -43,16 +31,15 @@ export default {
             nome:"",
             email:"",
             mensagem:"",
-            empresa:"",
-
          
+
             }
         },
          validations: {
                 nome: { required } ,
                 email: { required,email },
                 mensagem: { required },
-                empresa: { required},
+                
                 
             },
  methods: {
@@ -60,21 +47,28 @@ export default {
 
     login(){
         if( !this.$v.invalid ) {
-            alert('mensagem enviada com sucesso!')
+            alert('mensagem enviada com sucesso!');
+            this. nome =  "";
+            this.email = "";
+            this.mensagem = "";
         }else{
             this.$v.$tuoch();
+            
         }
-     }
- }, 
 
+    },
+
+ }, 
+ 
 }
 </script>
 <style scoped>
 #forme {
-    padding-left: 20px;
+     padding-left: 20px; 
+     margin-top: 30px;
 }
 #formgrup {
-    display: flex;
+     display: flex; 
 }
 h2 {
     color:peru;
@@ -114,7 +108,8 @@ button {
     background-color: black;
      color:peru;
     border: solid 2px peru;
-    cursor: pointer;  
+    cursor: pointer; 
+    margin-left: 100px; 
 }
 lU {
        color:peru;
@@ -128,5 +123,8 @@ p {
 }
 button {
     color:peru;
+}
+::placeholder {
+     color:peru;
 }
 </style>
