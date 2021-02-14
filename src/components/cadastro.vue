@@ -4,9 +4,9 @@
     <div id="forme"> 
              <h2>ENTRE EM CONTATO:</h2>
               <form action="https://api.staticforms.xyz/submit" method="post">
-                    <input v-model="nome" type="text" name="name" placeholder="seu nome"><br>
-                    <input v-model="email" type="text" name="email" placeholder="seu Email" /><br>
-                    <textarea v-model="mensagem" name="message" placeholder="deixe sua mensagem"></textarea><br>
+                    <input v-model="nome" type="text" name="name" placeholder="seu nome:"><br>
+                    <input v-model="email" type="text" name="email" placeholder="seu Email:" /><br>
+                    <textarea v-model="mensagem" name="message" placeholder="deixe,sua mensagem:"></textarea><br>
                     <input type="text" name="honeypot" style="display:none">
                     <input type="hidden" name="accessKey" value="2811af00-0456-4c02-a5fb-adb2057f2630">
                     <input type="hidden" name="replyTo" value="xandylamabamg@hotmail.com">
