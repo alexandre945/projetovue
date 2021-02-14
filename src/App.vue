@@ -42,5 +42,17 @@ img {
  text-align: center;
   
 }
+@media (max-width: 600px) {
+  #app {
+  width: 500px;
+  height: 1000px;
+  }
+  img {
+    margin-left: 0;
+    margin-top: 8px;
+    height: 200px;
+    width: 200px;
+  }
+}
 
 </style>

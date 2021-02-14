@@ -35,6 +35,11 @@ export default {
     padding-left: 20px; 
    margin-bottom: -5px;
  }
+  @media (max-width: 600px) {
+   p {
+     font-size: 8pt;
+   }
+ }
 
 
 </style>

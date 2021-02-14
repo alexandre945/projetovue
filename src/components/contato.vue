@@ -25,6 +25,7 @@
      margin-left: 950px;
      margin-top: -300px;
      font-size: 15pt;
+     
    
    }
    h1 {
@@ -34,6 +35,16 @@
         color:peru;
         text-decoration: none;
         
+   }
+   @media (max-width: 600px) {
+#contato {
+  margin-left: 0;
+  margin-top: 80px;
+  font-size: 10pt;
+}
+h1 {
+  font-size: 12pt;
+}
    }
    
    </style>

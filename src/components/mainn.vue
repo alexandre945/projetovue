@@ -39,4 +39,11 @@ p {
     border: solid 2px peru;
       
 }
+@media (max-width: 600px) {
+  #stek {
+      display: none;
+      margin-left: 0;
+      height: 70px;
+  }  
+}
 </style>
