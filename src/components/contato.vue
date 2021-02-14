@@ -39,7 +39,7 @@
    @media (max-width: 600px) {
 #contato {
   margin-left: 0;
-  margin-top: 80px;
+  margin-top: 30px;
   font-size: 10pt;
 }
 h1 {

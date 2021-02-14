@@ -37,7 +37,7 @@ export default {
  }
   @media (max-width: 600px) {
    p {
-     font-size: 10pt;
+     font-size: 15pt;
    }
  }
 
