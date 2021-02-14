@@ -127,4 +127,9 @@ button {
 ::placeholder {
      color:peru;
 }
+@media (max-width:600px) {
+    #formgrup {
+        margin-top: -100px;
+    }
+}
 </style>
