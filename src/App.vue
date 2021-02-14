@@ -50,8 +50,8 @@ img {
   img {
     margin-left: 0;
     margin-top: 8px;
-    height: 200px;
-    width: 200px;
+    height: 100vh;
+    width: 180px;
   }
 }
 
