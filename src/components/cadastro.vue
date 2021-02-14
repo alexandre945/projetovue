@@ -132,7 +132,7 @@ button {
         margin-top: -100px;
     }
         #tex {
-            margin-left: -250px;
+          margin-left: -250px;
             margin-top: 295px;
 
         }
