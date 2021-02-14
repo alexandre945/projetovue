@@ -38,7 +38,7 @@
    }
    @media (max-width: 600px) {
 #contato {
-  margin-left: 0;
+  margin-left: 15px;
   margin-top: 30px;
   font-size: 10pt;
 }
