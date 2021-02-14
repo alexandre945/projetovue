@@ -129,7 +129,7 @@ button {
 }
 @media (max-width:600px) {
     #formgrup {
-        margin-top: -120px;
+        margin-top: 50px;
     }
 }
 </style>
