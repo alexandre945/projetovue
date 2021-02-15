@@ -43,7 +43,7 @@ p {
   #stek {
       /* display: none; */
       margin-top: -100px;
-      margin-left: -330px;
+      margin-left: -260px;
       height: 70px;
       display: block;
   }  
