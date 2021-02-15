@@ -69,14 +69,17 @@ export default {
 }
 #formgrup {
      display: flex; 
+       color:peru;
+       background-color:black;
+
 }
 h2 {
     color:peru;
     padding-left: 20px;
 }
 input {
-    background-color: black;
-    color:peru;
+     background-color:black; 
+     color:peru; 
     height: 40px;
     width: 250px;
     border: solid 2px peru;
@@ -99,6 +102,7 @@ textarea {
 }
 #tex {
  color:peru;
+ background-color:black;
 font-size: 15pt;
 margin-top: 90px;
 margin-left: 100px;
@@ -129,11 +133,12 @@ button {
 }
 @media (max-width:600px) {
     #formgrup {
-        margin-top: -100px;
+        margin-top: 800px;
     }
         #tex {
           margin-left: -250px;
             margin-top: 295px;
+            padding: 0px;
 
         }
 }

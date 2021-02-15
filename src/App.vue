@@ -42,10 +42,11 @@ img {
  text-align: center;
   
 }
+
 @media (max-width: 600px) {
   #app {
   width: 500px;
-  height: 1300px;
+  height: 1900px;
   }
   img {
     margin-left: 15px;

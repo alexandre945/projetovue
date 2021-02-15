@@ -25,6 +25,7 @@
      margin-left: 950px;
      margin-top: -300px;
      font-size: 15pt;
+    transition:all 0.5s ease;
      
    
    }
@@ -34,7 +35,7 @@
    a {
         color:peru;
         text-decoration: none;
-        
+      
    }
    @media (max-width: 600px) {
 #contato {

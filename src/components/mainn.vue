@@ -41,9 +41,11 @@ p {
 }
 @media (max-width: 600px) {
   #stek {
-      display: none;
-      margin-left: 0;
+      /* display: none; */
+      margin-top: -100px;
+      margin-left: -330px;
       height: 70px;
+      display: block;
   }  
 }
 </style>
