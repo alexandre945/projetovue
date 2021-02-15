@@ -133,7 +133,7 @@ button {
 }
 @media (max-width:600px) {
     #formgrup {
-        margin-top: 800px;
+        margin-top: 900px;
     }
         #tex {
           margin-left: -250px;
