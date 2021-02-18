@@ -3,9 +3,9 @@
     <cliente />
      <contato />
     <img src="./assets/alex.jpg" alt="xandy.jpg">
+     <img id="like" src="./assets/Likepng.png">
     <mainn />
     <cadastro/>
-   
   </div>
 </template>
 <script>
@@ -19,10 +19,9 @@ export default {
     cliente,
     mainn,
     cadastro,
-    contato,
+    contato
   }
 }
-
 </script>
 
 <style>
@@ -42,6 +41,12 @@ img {
  text-align: center;
   
 }
+#like {
+  height: 100px;
+  width: 80px;
+  margin-bottom: 5px;
+  
+}
 
 @media (max-width: 600px) {
   #app {
@@ -56,4 +61,4 @@ img {
   }
 }
 
-</style>
+</style>      
