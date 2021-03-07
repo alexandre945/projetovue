@@ -10,7 +10,9 @@
         <p>Git/<br>70%</p>
         <p>mysql/<br>25%</p>
         <p>Node JS/<br>35%</p>
+        <P>Squelite/<br>30%</p>
         <p>Foco/<br>110%</p>
+        
         
     </div>
 </template>

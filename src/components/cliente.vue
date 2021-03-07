@@ -4,7 +4,7 @@
     <p>Nome: Alexandre Roberto de Sousa</p>
     <p>Idade: 43</p>
     <p>Email: xandylambamg@hotmail.com</p>
-    <p>(Pretenção); Desenvolvedor: Junior</p>
+    <p>(Pretenção); Desenvolvedor front end: Junior</p>
     <p>https://github.com/alexandre945</p>
     
     
