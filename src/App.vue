@@ -2,7 +2,7 @@
   <div id="app">
       <cliente />
       <contato />
-      <img src="./assets/xandy2.jpg" alt="alex.jpg"> 
+      <img src="./assets/xandy3.jpg" alt="alex.jpg"> 
       
       <mainn />
       <cadastro/>
