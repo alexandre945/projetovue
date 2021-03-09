@@ -46,7 +46,7 @@ img {
 @media (max-width: 600px) {
   #app {
   width: 400px;
-  height: 1900px;
+  height: 2000px;
   }
   img {
     margin-left: 15px;
